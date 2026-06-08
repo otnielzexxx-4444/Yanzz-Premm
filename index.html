@@ -1,10 +1,161 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Yanzz Premm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yanzz Premm</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+header{
+padding:25px;
+text-align:center;
+background:#111;
+border-bottom:1px solid #222;
+}
+
+.logo{
+font-size:32px;
+font-weight:bold;
+}
+
+.logo span{
+color:#00c853;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+color:#bdbdbd;
+max-width:700px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:12px 25px;
+background:#00c853;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.section{
+padding:50px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+margin-bottom:30px;
+font-size:30px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#171717;
+padding:20px;
+border-radius:12px;
+border:1px solid #262626;
+text-align:center;
+}
+
+.payment{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.pay{
+background:#171717;
+padding:15px 25px;
+border-radius:10px;
+border:1px solid #262626;
+}
+
+footer{
+padding:25px;
+text-align:center;
+background:#111;
+margin-top:50px;
+color:#888;
+}
+</style>
 </head>
+
 <body>
-    <h1>Yanzz Premm</h1>
-    <p>Website sedang dalam pengembangan.</p>
+
+<header>
+<div class="logo">Yanzz <span>Premm</span></div>
+</header>
+
+<section class="hero">
+<h1>Layanan Digital Premium</h1>
+<p>
+Selamat datang di Yanzz Premm.
+Menyediakan berbagai kebutuhan layanan digital dengan proses cepat dan pelayanan responsif.
+</p>
+
+<a href="#" class="btn">Hubungi Kami</a>
+</section>
+
+<section class="section">
+<h2 class="title">Kategori Layanan</h2>
+
+<div class="grid">
+<div class="card">Streaming</div>
+<div class="card">AI Tools</div>
+<div class="card">Editing</div>
+<div class="card">Music</div>
+<div class="card">Entertainment</div>
+<div class="card">Productivity</div>
+</div>
+
+</section>
+
+<section class="section">
+<h2 class="title">Metode Pembayaran</h2>
+
+<div class="payment">
+<div class="pay">QRIS</div>
+<div class="pay">DANA</div>
+<div class="pay">GoPay</div>
+<div class="pay">SeaBank</div>
+</div>
+
+</section>
+
+<footer>
+© 2026 Yanzz Premm. All Rights Reserved.
+</footer>
+
 </body>
 </html>
